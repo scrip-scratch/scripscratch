@@ -1,0 +1,26 @@
+.track {
+  display: flex;
+}
+
+.track__cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    #e8e8e8 50%,
+    transparent 100%
+  );
+
+  background: linear-gradient(90deg, #ddda 40%, #efefefaa, #ddda 60%) right /
+    300% 100%;
+  animation: skeleton-loading 1.5s linear infinite;
+}
+
+@keyframes skeleton-loading {
+  to {
+    background-position: left;
+  }
+}
