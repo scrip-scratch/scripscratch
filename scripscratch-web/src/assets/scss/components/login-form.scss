@@ -1,0 +1,29 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  height: 60vh;
+  div {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+  label {
+    color: $white;
+    margin-right: 10px;
+  }
+  input {
+    flex-grow: 0;
+    width: 75%;
+    border-bottom: 1px solid $white;
+  }
+  button {
+    margin-top: 32px;
+    border: 1px solid $white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: $white;
+  }
+}

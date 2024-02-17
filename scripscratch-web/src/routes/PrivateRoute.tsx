@@ -1,7 +1,7 @@
 import { Navigate, Outlet } from "react-router-dom";
 
 export const PrivateRoute = () => {
-  const isAuthenticated = true;
+  const isAuthenticated = Math.random() < 0.1;
 
   const from = "/";
 
